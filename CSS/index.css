@@ -1,0 +1,186 @@
+.topm{
+    background-color: rgba(20, 20, 20, 0.568);
+    padding: 1px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    border:5px solid rgb(255, 255, 255);
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.topm a{
+    color: white;
+    text-align: right;
+    
+}
+
+.topm ul{
+    list-style-type: none;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.topm li{
+    display: inline;
+}
+
+.topm li a{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.topm li a:hover{
+    background-color: darkgreen;
+    border-radius: 20px;
+}
+
+
+.titleh{
+    font-size: 35px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(21, 255, 0), 0 0 5px rgb(0, 139, 12);
+    color: white;
+    letter-spacing: 5px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-image: url("Image/692976.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.tabloa{
+    border-radius: 10px;
+    border:5px solid rgb(255, 255, 255);
+    margin-left:auto;
+    margin-right:auto; 
+    padding: 1px; 
+    border-spacing: 20px;
+    width: 80%;
+    height: 65vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgba(20, 20, 20, 0.568);
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+}
+
+
+.tabloe{
+    border-radius: 10px;
+    border:5px solid rgb(255, 255, 255);
+    margin-left:auto;
+    margin-right:auto; 
+    padding: 1px; 
+    border-spacing: 20px;
+    width: 80%;
+    height: 65vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgba(20, 20, 20, 0.568);
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+}
+
+
+
+.tablog{
+    border-radius: 10px;
+    border:5px solid rgb(255, 255, 255);
+    margin-left:auto;
+    margin-right:auto; 
+    padding: 1px; 
+    border-spacing: 20px;
+    width: 80%;
+    height: 65vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgba(20, 20, 20, 0.568);
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+}
+
+.tabloc{
+    border-radius: 10px;
+    border:5px solid rgb(255, 255, 255);
+    margin-left:auto;
+    margin-right:auto; 
+    padding: 1px; 
+    border-spacing: 20px;
+    width: 80%;
+    height: 65vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgba(20, 20, 20, 0.568);
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+}
+
+tr{ 
+    text-align: left;
+    margin-left: 5%;
+}
+
+
+.tcontent{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgba(26, 26, 26, 0.795);
+    border-radius: 15px;
+    border:5px solid rgb(255, 255, 255);
+    transition: 0.5s;
+    float: left;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 60px;
+    margin-right: auto;
+}
+
+.tcontent:hover{
+    transform: scale(1.1);
+}
+
+.tcontent .imc{
+
+    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+    border:5px solid rgb(0, 0, 0);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tcontent a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(3, 151, 77, 0.466);
+    border-radius: 10px;
+    transition: 1s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border:5px solid rgb(0, 0, 0);
+    margin: 5%;
+    padding: 2%;
+}
+
+.tcontent a:hover{
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgba(0, 187, 140, 0.342);
+    border:5px solid rgb(255, 255, 255);
+}
